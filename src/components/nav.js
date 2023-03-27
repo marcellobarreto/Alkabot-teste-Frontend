@@ -14,9 +14,9 @@ export default function Nav() {
           <div class=" flex-row md:-mx-4">
             <a
               class="my-1  text-gray-800 hover:text-blue-500 md:mx-4 md:my-0"
-              href="/Home"
+              href="/Login"
             >
-              Home
+              Login
             </a>
             <a
               class="my-1 ml-6 lg:ml-0 text-gray-800 hover:text-blue-500 md:mx-4 md:my-0"

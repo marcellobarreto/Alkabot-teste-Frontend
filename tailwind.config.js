@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        verdeBiond: '#60673b'
+        verde: '#60673b'
       },
       screens: {
         mobile: { max: '639px' }
