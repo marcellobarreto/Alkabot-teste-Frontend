@@ -6,6 +6,10 @@ export default function Login() {
           <div class="w-full bg-white rounded shadow-lg p-8 m-4 md:max-w-sm md:mx-auto">
             <span class="block w-full text-xl uppercase font-bold mb-4">
               Login
+              <p class="text-sm text-red-500">
+                Login não esta autenticando <br /> (clique em LOGIN para
+                continuar)
+              </p>
             </span>
             <form class="mb-4" action="/home">
               <div class="mb-4 md:w-full">
