@@ -35,7 +35,6 @@ export default function Login() {
                 Login
               </button>
             </form>
-            {/* <a class="text-blue-700 text-center text-sm" href="/login">Forgot password?</a> */}
           </div>
         </div>
       </body>
