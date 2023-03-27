@@ -4,6 +4,11 @@ Este projeto foi inicializado com [Create React App](https://github.com/facebook
 
 ##Scripts Disponíveis
 
+Para instalar as dependências,
+No diretório do projeto, você pode executar:
+
+### `yarn start`
+
 No diretório do projeto, você pode executar:
 
 ### `npm start`
