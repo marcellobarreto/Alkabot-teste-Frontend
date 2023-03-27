@@ -34,15 +34,6 @@ export default function Post() {
       setPosts(postsPaginar.slice(_count * 10, _count * 10 + 10))
       setPaginacao(_count)
     }
-    // console.log(paginacao, _count)
-    // if(paginacao <= 1|| _count <= 0){
-    //   setPrevious(true)
-    // }else if (paginacao >= 10 || _count >= 9){
-    //   setNext(true)
-    // }else{
-    //   setPrevious(false)
-    //   setNext(false)
-    // }
   }
 
   function coment(id) {
@@ -116,13 +107,11 @@ export default function Post() {
 
       <div class=" py-6 ">
         <ul class="flex justify-center">
-          {/* <li class="mx-1 px-3 py-2 bg-gray-200 text-gray-500 rounded-lg"> */}
           <li class="mx-1 px-3 py-2 bg-gray-200 text-gray-700 hover:bg-gray-700 hover:text-gray-200 rounded-lg">
             <button
               type="button"
               class="flex items-center font-bold"
               onClick={() => avancar(null, 'previous')}
-              // disabled={previous}
             >
               previous
             </button>
@@ -144,7 +133,6 @@ export default function Post() {
               type="button"
               class="flex items-center font-bold"
               onClick={() => avancar(null, 'next')}
-              // disabled={next}
             >
               Next
             </button>
